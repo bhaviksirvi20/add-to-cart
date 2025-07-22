@@ -43,6 +43,7 @@ body {
   display: flex;
   align-items: center;
   gap: 2rem;
+  transition: all 0.3s ease-in-out;
 }
 
 .nav-links a {
@@ -52,11 +53,9 @@ body {
   transition: color 0.3s ease;
 }
 
-.nav-links a:hover,
-.nav-links a.active {
+.nav-links a:hover {
   color: #10b981;
 }
-
 .hamburger {
   display: none;
   font-size: 24px;
